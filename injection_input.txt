@@ -5,3 +5,8 @@ foo';
   SELECT CONCAT(contact_name, ' ', phone) as nvm from customers;
 
 ;--
+
+
+';
+DROP TABLE IF EXISTS order_details;
+--
