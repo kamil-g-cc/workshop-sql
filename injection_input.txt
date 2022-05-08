@@ -1,1 +1,7 @@
 foo';select contact_name from customers;--
+
+foo';
+
+  SELECT CONCAT(contact_name, ' ', phone) as nvm from customers;
+
+;--
